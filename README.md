@@ -1,30 +1,95 @@
-# Logo particles (v0 + aws)
+* * * * *
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Interactive Particle Text Animation
+===================================
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/yakshdtechsture-gmailcoms-projects/v0-logo-particles-v0-aws)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/00vCdI1FgT5)
+An interactive **HTML CSS JavaScript** project that transforms text into animated particles which respond to mouse interactions. This showcases creative coding skills, animation handling, and DOM-canvas integration.
 
-## Overview
+🚀 Features
+-----------
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+-   Customizable text and particle colors
 
-## Deployment
+-   Smooth particle motion with mouse interaction
 
-Your project is live at:
+-   Fully responsive and lightweight
 
-**[https://vercel.com/yakshdtechsture-gmailcoms-projects/v0-logo-particles-v0-aws](https://vercel.com/yakshdtechsture-gmailcoms-projects/v0-logo-particles-v0-aws)**
+-   Pure HTML CSS JS with no external libraries
 
-## Build your app
+🖼 Preview
+----------
 
-Continue building your app on:
+![Preview Screenshot](https://chatgpt.com/c/preview.png)
 
-**[https://v0.app/chat/projects/00vCdI1FgT5](https://v0.app/chat/projects/00vCdI1FgT5)**
+**🔗 Live Demo:** [Interactive Particle Text Animation](https://yakshtechs.github.io/3DParticles/)
 
-## How It Works
+📂 Project Structure
+--------------------
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```
+project/
+│── index.html       # Main HTML file
+│── style.css        # Styling for layout and text
+│── script.js        # Animation logic
+│── preview.png      # Project preview screenshot
+
+```
+
+⚙️ How It Works
+---------------
+
+1.  **Canvas Rendering** -- Text is drawn on a hidden canvas to capture pixel data.
+
+2.  **Particle Generation** -- Each pixel is converted into a particle object with its own position and velocity.
+
+3.  **Interaction** -- Mouse movement alters particle positions, creating a ripple-like effect.
+
+4.  **Animation Loop** -- The particles are continuously redrawn using `requestAnimationFrame` for smooth performance.
+
+📦 Installation & Usage
+-----------------------
+
+1.  Clone the repository:
+
+    ```
+    git clone https://github.com/yourusername/particle-text-animation.git
+
+    ```
+
+2.  Open `index.html` in your browser.
+
+3.  Move your mouse around and watch the particles react.
+
+🔧 Customization
+----------------
+
+-   Change text in `script.js`:
+
+    ```
+    const displayText = "YAKSH DEVANI";
+
+    ```
+
+-   Adjust colors in `style.css` or `script.js`.
+
+-   Modify particle size and speed for different effects.
+
+💡 Skills Demonstrated
+----------------------
+
+-   Canvas API manipulation
+
+-   JavaScript animation techniques
+
+-   Event handling for interactivity
+
+-   Creative UI/UX micro-interactions
+
+-   Optimizing rendering performance
+
+📜 License
+----------
+
+This project is open-source and available under the [MIT License](https://chatgpt.com/c/LICENSE).
+
+* * * * *
