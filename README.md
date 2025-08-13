@@ -31,7 +31,6 @@ project/
 │── index.html       # Main HTML file
 │── style.css        # Styling for layout and text
 │── script.js        # Animation logic
-│── preview.png      # Project preview screenshot
 
 ```
 
@@ -52,7 +51,7 @@ project/
 1.  Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/particle-text-animation.git
+    git clone https://github.com/YakshTechs/3DParticles.git
 
     ```
 
