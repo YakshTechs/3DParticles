@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+#particleCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: none;
+}
+
+.info-text {
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  z-index: 10;
+  font-size: 16px;
+  color: #9ca3af;
+}
+
+.yaksh-text {
+  color: #00dcff;
+}
+
+.devani-text {
+  color: #ff9900;
+}
+
+.fork-link {
+  color: #6b7280;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.fork-link:hover {
+  color: #9ca3af;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .info-text {
+    font-size: 12px;
+    bottom: 80px;
+  }
+
+  .fork-link {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .info-text {
+    font-size: 10px;
+    bottom: 60px;
+  }
+}
